@@ -4,7 +4,7 @@ import Button from '../components/utilities/Button'
 import Frame from '../assets/images/frame.png'
 import GetApp from '../assets/images/getApp.png'
 import CapTerra from '../assets/images/capTerra.png'
-import BannerImg from '../assets/svg/banner.svg'
+import BannerImg from '../assets/images/banner.png'
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 
@@ -28,14 +28,12 @@ const Banner = () => {
           <div className="flex gap-3 items-center mt-10">
             <div className="">
               <div className="flex gap-[6px]">
-                {/*.............common-class.............*/}
                 <FaStar className='text-base font-inter text-[#FF9D48] flex items-center justify-center' />
                 <FaStar className='text-base font-inter text-[#FF9D48] flex items-center justify-center' />
                 <FaStar className='text-base font-inter text-[#FF9D48] flex items-center justify-center' />
                 <FaStar className='text-base font-inter text-[#FF9D48] flex items-center justify-center' />
                 <FaStarHalfAlt className='text-base font-inter text-[#FF9D48] flex items-center justify-center' />
               </div>
-              {/* ============== index.css common-class (content11px)=========== */}
               <span className='text-[11px] font-inter font-normal leading-[15px] capitalize text-[#050038]'>Based on 5149+ reviews:</span>
             </div>
             <div className="flex gap-[15px] px-[15px] items-center">
