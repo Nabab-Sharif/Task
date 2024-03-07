@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  .phones {
+    @apply text-[19px] font-inter font-extrabold leading-[25px] text-[#FFC247] pl-[44px] capitalize relative before:absolute before:content-[''] before:h-[2px] before:w-5 before:left-0 before:bg-[#FFC247] before:top-1/2 before:-translate-y-1/2
+  }
+}
